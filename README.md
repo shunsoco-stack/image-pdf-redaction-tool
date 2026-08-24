@@ -208,11 +208,25 @@ vercel --prod
 
 ポートフォリオ用の必須5画面です。Vercel production版を同じ1425 × 990pxのDesktop viewportで撮影し、同梱の完全架空デモ以外のデータを使っていません。
 
-1. [Document Viewer](docs/screenshots/01-document-viewer.png)
-2. [Mask候補](docs/screenshots/02-mask-candidates.png)
-3. [Manual Redaction](docs/screenshots/03-manual-redaction.png)
-4. [Before / After](docs/screenshots/04-before-after.png)
-5. [Export](docs/screenshots/05-export.png)
+### 1. Document Viewer
+
+![画像・PDF個人情報マスキングツールのDocument Viewer。架空請求書、ページThumbnail、検出候補の確認欄を表示](docs/screenshots/01-document-viewer.png)
+
+### 2. Mask候補
+
+![自動確定されていないMask候補を、利用者がマスクするか無視するか確認する画面](docs/screenshots/02-mask-candidates.png)
+
+### 3. Manual Redaction
+
+![文書上をMouseまたはTouchで範囲選択し、黒塗りまたはBlurを適用するManual Redaction画面](docs/screenshots/03-manual-redaction.png)
+
+### 4. Before / After
+
+![OriginalとMaskedを並べて比較し、マスク結果を目視確認するBefore After画面](docs/screenshots/04-before-after.png)
+
+### 5. Export
+
+![画像化PDFのページ数と抽出可能テキスト0件を検証し、PDF・PNG・JPEGを書き出す画面](docs/screenshots/05-export.png)
 
 撮影状態、ファイル名、alt文、ファイルサイズは[docs/screenshots/README.md](docs/screenshots/README.md)に記録しています。
 
