@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="文書と盾のマスキングアイコン">
+  <rect width="64" height="64" rx="16" fill="#12302d"/>
+  <path d="M17 10h22l9 9v32a5 5 0 0 1-5 5H17a5 5 0 0 1-5-5V15a5 5 0 0 1 5-5Z" fill="#f7fbfa"/>
+  <path d="M39 10v9h9" fill="none" stroke="#b5cbc7" stroke-width="2.6" stroke-linejoin="round"/>
+  <rect x="19" y="27" width="22" height="4" rx="2" fill="#1b2625"/>
+  <rect x="19" y="35" width="14" height="3" rx="1.5" fill="#a8bbb8"/>
+  <path d="M42 32.5c4.1 2.5 7.1 2.8 9 2.8v7.2c0 6.2-3.9 10.3-9 12.5-5.1-2.2-9-6.3-9-12.5v-7.2c1.9 0 4.9-.3 9-2.8Z" fill="#18a58f" stroke="#0c5f54" stroke-width="2" stroke-linejoin="round"/>
+  <path d="m38.2 43.2 2.5 2.5 5.4-6" fill="none" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

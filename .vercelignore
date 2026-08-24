@@ -1,0 +1,7 @@
+node_modules
+.next
+out
+.vercel
+public/pdf.worker.min.mjs
+public/pdfjs
+public/ocr
