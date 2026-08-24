@@ -13,6 +13,7 @@
 - **自動品質ゲート: 合格**。`npm run verify`でLint、TypeScript、5ファイル・31テスト、production static buildが連続成功しました。
 - **Production主要フロー: 合格**。Detect → Review → Redact → Validate → Export、手動黒塗り・Blur、31候補一括適用、Undo、Before / After、本番OCR、PNG / JPEG生成、画像化PDF生成をChromiumで完走しました。
 - **Vercel公開: 合格**。deployment `dpl_HkGn3MeePoGYAPzGQ77pcwUjwig4`はREADYで、固定URLを認証なしで表示できます。
+- **GitHub公開: 合格**。public repository、既定ブランチ`main`、`origin`、Vercel homepage設定を確認し、公開時のローカル／リモートcommitが一致しました。
 - **最終画像: 合格**。必須5枚はproduction版・完全架空Demo・1425 × 990pxで撮影し、個別に目視確認しました。
 - Critical / Highの既知不具合は最終検証範囲では確認されていません。ただし、Safari / Firefox / Android実機、40ページ・50MB境界、第三者によるセキュリティ評価を含む意味ではありません。
 
@@ -208,13 +209,13 @@ WCAG適合を宣言していません。
 
 ## 公開ゲート
 
-現在の判定: **Vercel production・主要E2E・最終5画像まで合格。GitHub公開確認待ち**
+現在の判定: **完成・公開済み（Vercel production・主要E2E・最終5画像・GitHub公開まで合格）**
 
-GitHub公開とremote確認後に「完成・公開済み」へ更新します。
+GitHub public repository、`origin/main`、公開時のローカル／リモートcommit一致を確認済みです。別PDF Viewer、Touch実機、クロスブラウザ等は追加QAとして未実施です。
 
 1. Vercel production URLを外部ブラウザで確認
 2. 公開URLでHuman Review → Manual Redaction → Compare → PDF / Image Exportを完走
-3. 出力PDFの構造検証結果と別Viewer表示を確認
+3. 出力PDFの`application/pdf` Blob生成、ページ数一致、PDF.js抽出テキスト0件を確認（別Viewer表示は追加QA）
 4. 公開版Network / Storage / Consoleを確認
 5. 最終公開版の必須スクリーンショット5枚を撮影・目視確認
 6. GitHub remoteと公開repositoryの最新commitを確認

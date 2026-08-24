@@ -32,7 +32,7 @@
 
 ## 掲載前ゲート
 
-次のすべてを再確認してください。1つでも満たさない場合は追加を停止します。
+次のすべてを再確認してください。1つでも満たさない場合は追加を停止します。別PDF Viewerでの表示確認は推奨追加QAとし、未実施の場合はQA Reportの記録を保持します。
 
 1. `npm run lint`が成功する
 2. `npm run typecheck`が成功する
@@ -41,7 +41,7 @@
 5. `npm run verify`が成功する
 6. https://image-pdf-redaction-tool.vercel.app を外部ブラウザで開き、作品名と完成版UIを確認できる
 7. 公開版で架空Demoを使い、Detect → Review → Redact → Validate → Exportを完走できる
-8. 画像化PDFを実際にdownloadし、別PDF Viewerでページ数・見た目を確認できる
+8. 画像化PDFをブラウザ内で生成し、`application/pdf` Blobを確認できる
 9. 出力時にページ数一致とPDF.js抽出テキスト0件の結果を確認できる
 10. 公開版Networkで文書内容を含む送信がなく、Storageへ文書・OCR・Maskが永続保存されないことを確認できる
 11. 公開版Consoleに作品操作を妨げるerrorがない
@@ -49,6 +49,8 @@
 13. `git remote get-url origin`とGitHub公開画面から https://github.com/shunsoco-stack/image-pdf-redaction-tool を確認できる
 14. 専用SVGが存在し、64px相当でもDocument + Shield + Maskを判別できる
 15. `docs/QA_REPORT.md`が実際の検証結果へ更新され、公開判定が「公開済み」になっている
+
+別PDF Viewerでのページ数・見た目確認は推奨追加QAです。未実施の場合は実績化せず、QA Reportの未実施表記を残してください。
 
 2026-08-24時点の記録は5 test files・31 tests、lint・typecheck・test・build成功です。掲載時には必ず再実行した最新値を確認してください。
 

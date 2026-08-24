@@ -159,4 +159,4 @@ Alt候補:
 | `04-before-after.png` | 2026-08-24 23:30 JST | production / `dpl_HkGn3MeePoGYAPzGQ77pcwUjwig4` | 1425 × 990 | Codex production browser | 232,242 bytes |
 | `05-export.png` | 2026-08-24 23:30 JST | production / `dpl_HkGn3MeePoGYAPzGQ77pcwUjwig4` | 1425 × 990 | Codex production browser | 198,010 bytes |
 
-5枚ともproduction deploymentの実画面を同じviewportで撮影し、画像を個別に開いて内容・比率・架空データ・欠けを目視確認しました。GitHub掲載時は`main`の最新commitと上記deploymentのソース差分も再確認してください。
+5枚ともproduction deploymentの実画面を同じviewportで撮影し、画像を個別に開いて内容・比率・架空データ・欠けを目視確認しました。ポートフォリオ掲載時は`main`の最新commitと上記deploymentのソース差分も再確認してください。
