@@ -852,7 +852,7 @@ export function RedactionWorkspace() {
 
       <div className="privacy-strip">
         <LockKeyhole size={14} aria-hidden="true" />
-        ファイル・画像・認識テキストはブラウザ内で処理され、サーバーへ送信されません
+        ファイル・画像・認識テキストはブラウザ内で処理し、外部サーバーへ送信することはありません。本番ページ末尾の広告配信（忍者AdMax）は、これらの内容とは無関係です
       </div>
 
       <nav className="workflow-nav" aria-label="マスキング工程">
